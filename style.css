@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*começo do código para a página*/
+body {
+	background-color: #ffede2;
+}
+#ma {
+	max-width: 480px;
+	height: 60px;
+	background: #ff914d;
+}
+#lo {
+	position: relative;
+	width: 20%;
+	height: 70%;
+	border-radius: 50px;
+	top: 9px;
+	left: 9px;
+}
+#menu {
+	position: relative;
+	float: right;
+	width: 40px;
+	height: 70%;
+	top: 9px;
+	right: 9px;
+}
+#en {
+	position: relative;
+	background-color: #ff914d;
+	border: 0px;
+	border-radius: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 30px;
+	left: 180px;
+}
+div {
+	max-width: 480px;
+}
+#logos {
+	position: relative;
+	width: 420px;
+	text-align: center;
+	left: 29px;
+	top: 27px;
+}
+.im {
+	position: relative;
+	text-align: center;
+	width: 9%;
+	height: 9%;
+}
+footer {
+	position: relative;
+	background: #ff914d;
+	max-width: 480px;
+	height: 80px;
+	top: 38px;
+}
+#oi {
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	top: 32px;
+}
